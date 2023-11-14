@@ -1,0 +1,79 @@
+nav {
+  background: rgb(41, 40, 40);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+nav img {
+  width: 100px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+ul a {
+  text-decoration: none;
+  color: #fcf4f4;
+  font-size: 24px;
+}
+.home-container {
+  background-image: url(https://images.pexels.com/photos/14394859/pexels-photo-14394859.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+  width: 100%;
+  height: 70vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.heading-title {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  justify-content: center;
+}
+.heading-title h1 {
+  color: rgb(4, 10, 97);
+  font-size: 48px;
+  letter-spacing: 1.2px;
+  text-shadow: 1px 3px 3px grey;
+}
+.card {
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 0;
+  justify-content: center;
+}
+.card-container {
+  background: #c9bbbb;
+  box-shadow: 3px 3px 3px rgb(15, 8, 8);
+  width: 400px;
+}
+.card-container img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.card-container h3 {
+  font-size: 24px;
+  text-align: center;
+}
+.card-container .desc {
+  font-size: 22px;
+  text-align: center;
+}
+
+.card-container .price {
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.card-container .price span {
+  font-weight: 700;
+}
